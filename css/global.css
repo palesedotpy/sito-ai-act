@@ -1,0 +1,80 @@
+
+:root {
+    --nero: #1B161A;
+    --grigio: #9fa8aa;
+    --azzurro: #cae9ff;
+    --blu-scuro: #2A4D69;
+    --bianco: #F4F4F4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Roboto"; /* Source Serif 4 */
+}
+
+.nero {
+    color: var(--nero);
+}
+.grigio {
+    color: var(--grigio);
+}
+.azzurro {
+    color: var(--azzurro);
+}
+.blu-scuro {
+    color: var(--blu-scuro);
+}
+.bianco {
+    color: var(--bianco-sporco);
+}
+
+.bg-bianco {
+    background-color: var(--bianco);
+}
+.bg-bianco-25 {
+    background-color: rgb(244, 244, 244, 0.50);
+}
+.bg-azzurro {
+    background-color: var(--azzurro);
+}
+
+
+.button-blue {
+    background-color: var(--blu-scuro);
+    color: var(--bianco);
+    padding: 10px 30px;
+    border-radius: 25px; 
+}
+.button-blue:hover {
+    background-color: var(--bianco);
+    color: var(--blu-scuro);
+    border: 1px solid var(--blu-scuro);
+}
+
+li {
+    margin: 20px 0px;
+}
+li::marker {
+    color: var(--azzurro);
+}
+
+.nav-bar-link {
+    text-decoration: none;
+    color: var(--blu-scuro);
+    font-weight: bold;
+
+    border-radius: 20px;
+    padding: 1px 8px;
+}
+.nav-bar-link:hover {
+    color: var(--bianco);
+    text-shadow: 0px 0px 5px var(--nero);
+}

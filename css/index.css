@@ -1,0 +1,28 @@
+
+.full-background {
+    height: 100vh;
+    
+    background-image: url('../assets/roboto-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+
+
+
+.box-title {
+    width: 40vw;
+    min-width: fit-content;
+
+    padding: clamp(1.5rem, 4%, 3em);
+}
+
+.impact-title {
+    font-size: clamp(1.5rem, calc(7vw + 1rem), 5rem);
+    font-weight: bold;
+}
+
+
+
+
