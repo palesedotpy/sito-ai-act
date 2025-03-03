@@ -45,6 +45,9 @@ body {
 .bg-azzurro {
     background-color: var(--azzurro);
 }
+.bg-blu-scuro {
+    background-color: var(--blu-scuro);
+}
 
 
 .button-blue {

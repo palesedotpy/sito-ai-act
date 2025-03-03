@@ -8,9 +8,6 @@
     background-size: cover;
 }
 
-
-
-
 .box-title {
     width: 40vw;
     min-width: fit-content;
@@ -22,7 +19,4 @@
     font-size: clamp(1.5rem, calc(7vw + 1rem), 5rem);
     font-weight: bold;
 }
-
-
-
 
